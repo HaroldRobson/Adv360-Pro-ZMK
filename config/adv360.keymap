@@ -72,7 +72,7 @@
             display-name = "Red";
             bindings = <
 &kp EQUAL  &kp N1            &kp N2              &kp N3                &kp N4                 &kp N5                &tog 0                                                   &mo 3      &kp N6          &kp KP_NUM        &kp KP_EQUAL       &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp EXCLAMATION   &kp RS(UNDERSCORE)  &kp HASH              &kp DOLLAR             &kp PERCENT           &none                                                    &none      &kp LESS_THAN   &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp PIPE       &kp KP_MINUS     &kp BSLH
+&kp TAB    &kp EXCLAMATION   &kp RS(UNDERSCORE)  &kp NON_US_HASH       &kp DOLLAR             &kp PERCENT           &none                                                    &none      &kp LESS_THAN   &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp PIPE       &kp KP_MINUS     &kp BSLH
 &kp ESC    &kp LEFT_BRACE    &kp RIGHT_BRACE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL             &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW       &kp RIGHT      &kp KP_PLUS      &kp SQT
 &kp LSHFT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &kp SQT               &kp SLASH              &kp NON_US_BACKSLASH                       &kp HOME      &kp PG_UP                        &kp MINUS       &kp PLUS          &kp COLON          &kp SEMICOLON  &kp KP_ENTER     &kp RSHFT
 &mo 2      &kp LCTRL         &kp CAPS            &kp LEFT              &kp RIGHT                                    &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0                  &kp UP            &kp DOWN           &kp KP_DOT     &kp RBKT         &mo 2
