@@ -25,14 +25,14 @@
         Result: Result {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SPACE &kp MINUS &kp GT &kp SPACE &kp LS(R) &kp E &kp S &kp U &kp L &kp T &kp LT &kp LPAR &kp RPAR &kp GT &kp SPACE &kp LBRC &kp RET &kp RET &kp LS(O) &kp K &kp LPAR &kp LPAR &kp RPAR &kp RPAR &kp ENTER &kp RBRC &kp UP_ARROW &kp UP_ARROW>;
+            bindings = <&kp SPACE &kp MINUS &kp GT &kp SPACE &kp LS(R) &kp E &kp S &kp U &kp L &kp T &kp LT &kp LPAR &kp RPAR &kp GT &kp SPACE &kp LBRC &kp RET &kp RET &kp LS(O) &kp K &kp LPAR &kp LPAR &kp RPAR &kp RPAR &kp UP_ARROW &kp UP_ARROW>;
             label = "RESULT";
         };
 
         Match: Match {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SPACE &kp M &kp A &kp T &kp C &kp H &kp SPACE &kp Z &kp Z &kp Z &kp Z &kp Z &kp SPACE &kp LBRC &kp RET &kp Y &kp Y &kp Y &kp Y &kp Y &kp SPACE &kp EQUAL &kp GT &kp SPACE &kp X &kp X &kp X &kp X &kp X &kp COMMA &kp RET &kp UNDER &kp SPACE &kp EQUAL &kp GT &kp SPACE &kp X &kp X &kp X &kp X &kp X &kp COMMA &kp RET &kp RBRC &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp RIGHT &kp RIGHT &kp RIGHT &kp RIGHT &kp RIGHT>;
+            bindings = <&kp SPACE &kp M &kp A &kp T &kp C &kp H &kp SPACE &kp Z &kp Z &kp Z &kp Z &kp Z &kp SPACE &kp LBRC &kp RET &kp Y &kp Y &kp Y &kp Y &kp Y &kp SPACE &kp EQUAL &kp GT &kp SPACE &kp X &kp X &kp X &kp X &kp X &kp COMMA &kp RET &kp UNDER &kp SPACE &kp EQUAL &kp GT &kp SPACE &kp X &kp X &kp X &kp X &kp X &kp COMMA &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp RIGHT &kp RIGHT &kp RIGHT &kp RIGHT &kp RIGHT>;
             label = "MATCH";
         };
     };
