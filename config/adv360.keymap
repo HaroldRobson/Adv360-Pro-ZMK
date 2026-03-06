@@ -32,7 +32,7 @@
         Match: Match {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SPACE &kp M &kp A &kp T &kp C &kp H &kp SPACE &kp Z &kp Z &kp Z &kp Z &kp Z &kp SPACE &kp LBRC &kp RET &kp Y &kp Y &kp Y &kp Y &kp Y &kp SPACE &kp EQUAL &kp GT &kp SPACE &kp X &kp X &kp X &kp X &kp X &kp COMMA &kp RET &kp UNDER &kp SPACE &kp EQUAL &kp GT &kp SPACE &kp X &kp X &kp X &kp X &kp X &kp COMMA &kp RET &kp RBRC &kp &kp &kp>;
+            bindings = <&kp SPACE &kp M &kp A &kp T &kp C &kp H &kp SPACE &kp Z &kp Z &kp Z &kp Z &kp Z &kp SPACE &kp LBRC &kp RET &kp Y &kp Y &kp Y &kp Y &kp Y &kp SPACE &kp EQUAL &kp GT &kp SPACE &kp X &kp X &kp X &kp X &kp X &kp COMMA &kp RET &kp UNDER &kp SPACE &kp EQUAL &kp GT &kp SPACE &kp X &kp X &kp X &kp X &kp X &kp COMMA &kp RET &kp RBRC &kp UP_ARROW &kp UP_ARROW &kp UP_ARROW &kp RIGHT &kp RIGHT &kp RIGHT &kp RIGHT &kp RIGHT>;
             label = "MATCH";
         };
     };
@@ -89,7 +89,7 @@
             bindings = <
 &kp EQUAL             &kp N1            &kp N2             &kp N3                &kp N4                 &kp N5          &tog 0                                                   &mo 3      &kp N6          &kp N7          &kp N8             &kp N9       &kp N0         &kp MINUS
 &hm LEFT_CONTROL TAB  &kp EXCLAMATION   &kp PIPE           &kp RA(MINUS)         &kp GREATER_THAN       &kp EQUAL       &Result                                                  &none      &kp DOLLAR      &kp AMPERSAND   &kp DOUBLE_QUOTES  &kp AT_SIGN  &kp SEMICOLON  &kp BSLH
-&hm LG(LMETA) ESCAPE  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW       &kp RIGHT    &kp COLON      &kp SQT
+&hm LG(LMETA) ESCAPE  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &Match    &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW       &kp RIGHT    &kp COLON      &kp SQT
 &kp LSHFT             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN         &kp GREATER_THAN       &kp CARET                            &kp HOME      &kp PG_UP                        &kp SLASH       &kp PLUS        &kp MINUS          &kp EQUAL    &kp ASTERISK   &kp RSHFT
 &mo 2                 &kp LCTRL         &kp CAPS           &kp LEFT              &kp RIGHT                              &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0                  &kp UP          &kp DOWN           &kp KP_DOT   &kp RBKT       &mo 2
             >;
